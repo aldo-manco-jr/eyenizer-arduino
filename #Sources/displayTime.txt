@@ -1,0 +1,52 @@
+void displayTime()
+{
+  byte second, minute, hour, dayOfWeek, dayOfMonth, month, year;
+  // retrieve data from DS3231
+  readDS3231time(&second, &minute, &hour, &dayOfWeek, &dayOfMonth, &month,
+  &year);
+  // send it to the serial monitor
+  Serial.print(hour, DEC);
+  // convert the byte variable to a decimal number when displayed
+  Serial.print(":");
+  if (minute<10)
+  {
+    Serial.print("0");
+  }
+  Serial.print(minute, DEC);
+  Serial.print(":");
+  if (second<10)
+  {
+    Serial.print("0");
+  }
+  Serial.print(second, DEC);
+  Serial.print(" ");
+  Serial.print(dayOfMonth, DEC);
+  Serial.print("/");
+  Serial.print(month, DEC);
+  Serial.print("/");
+  Serial.print(year, DEC);
+  Serial.print(" Giorno della Settimana: ");
+  switch(dayOfWeek){
+  case 1:
+    Serial.println("Domenica");
+    break;
+  case 2:
+    Serial.println("Lunedi");
+    break;
+  case 3:
+    Serial.println("Martedi");
+    break;
+  case 4:
+    Serial.println("Mercoledi");
+    break;
+  case 5:
+    Serial.println("Giovedi");
+    break;
+  case 6:
+    Serial.println("Venerdi");
+    break;
+  case 7:
+    Serial.println("Sabato");
+    break;
+  }
+}

@@ -1,0 +1,593 @@
+  else if (badge.substring(1) == "60 5A 8D 7E")
+  {
+    File massimiliano;
+    massimiliano = SD.open("lannim.txt", FILE_WRITE);
+    nLanniMassimiliano = daytime(massimiliano, nLanniMassimiliano, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    massimiliano.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Massimiliano L.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "60 91 97 7E")
+  {
+    File alessia;
+    alessia = SD.open("bielloa.txt", FILE_WRITE);
+    nBielloAlessia = daytime(alessia, nBielloAlessio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    alessia.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Alessia Biello");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "B0 FF CF 7E")
+  {
+    File alfonso;
+    alfonso = SD.open("biscegla.txt", FILE_WRITE);
+    nBiscegliaAlfonso = daytime(alfonso, nBiscegliaAlfonso, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    alfonso.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Alfonso B.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "D0 E8 9B 7E")
+  {
+    File marco;
+    marco = SD.open("buonom.txt", FILE_WRITE);
+    nBuonoMarco = daytime(marco, nBuonoMarco, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    marco.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Marco Buono");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "60 88 95 7E")
+  {
+    File marco;
+    marco = SD.open("caldaram.txt", FILE_WRITE);
+    nCaldararoMarco = daytime(marco, nCaldararoMarco, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    marco.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Marco Caldararo");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "90 63 8E 7E")
+  {
+    File nicandro;
+    nicandro = SD.open("calleon.txt", FILE_WRITE);
+    nCalleoNicandro = daytime(nicandro, nCalleoNicandro, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    nicandro.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Nicandro Calleo");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "50 C6 CB 7E")
+  {
+    File antonio;
+    antonio = SD.open("cambioa.txt", FILE_WRITE);
+    nCambioAntonio = daytime(antonio, nCambioAntonio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    antonio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Antonio Cambio");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "D0 95 8E 7E")
+  {
+    File nicandro;
+    nicandro = SD.open("caramann.txt", FILE_WRITE);
+    nCaramannaNicandro = daytime(nicandro, nCaramannaNicandro, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    nicandro.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Nicandro C.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "10 5F 93 7E")
+  {
+    File lorenzo;
+    lorenzo = SD.open("cardarll.txt", FILE_WRITE);
+    nCardarelliLorenzo = daytime(lorenzo, nCardarelliLorenzo, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    lorenzo.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Lorenzo C.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "80 B3 99 7E")
+  {
+    File nicola;
+    nicola = SD.open("cavicchn.txt", FILE_WRITE);
+    nCavicchiaNicola = daytime(nicola, nCavicchiaNicola, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    nicola.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Nicola Cavicchia");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "20 AE D2 7E")
+  {
+    File alessandro;
+    alessandro = SD.open("cianchea.txt", FILE_WRITE);
+    nCianchettaAlessandro = daytime(alessandro, nCianchettaAlessandro, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    alessandro.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Alessandro C.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "C0 CC 93 7E")
+  {
+    File antonio;
+    antonio = SD.open("dimeoa.txt", FILE_WRITE);
+    nDiMeoAntonio = daytime(antonio, nDiMeoAntonio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    antonio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Antonio Di Meo");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "B0 C5 99 7E")
+  {
+    File paolo;
+    paolo = SD.open("dimuccip.txt", FILE_WRITE);
+    nDiMuccioPaolo = daytime(paolo, nDiMuccioPaolo, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    paolo.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Paolo Di Muccio");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "30 A9 90 7E")
+  {
+    File vadim;
+    vadim = SD.open("fomenikv.txt", FILE_WRITE);
+    nFomenikoVadim = daytime(vadim, nFomenikoVadim, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    vadim.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Vadim Fomeniko");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "30 13 99 7E")
+  {
+    File lucio;
+    lucio = SD.open("forgionl.txt", FILE_WRITE);
+    nForgioneLucio = daytime(lucio, nForgioneLucio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    lucio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Lucio Forgione");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "60 AF 92 7E")
+  {
+    File vittorio;
+    vittorio = SD.open("fortev.txt", FILE_WRITE);
+    nForteVittorio = daytime(vittorio, nForteVittorio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    vittorio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Vittorio Forte");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "B0 64 8E 7E")
+  {
+    File antonello;
+    antonello = SD.open("gelfusaa.txt", FILE_WRITE);
+    nGelfusaAntonello = daytime(antonello, nGelfusaAntonello, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    antonello.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Antonello G.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "20 6B 97 7E")
+  {
+    File antonio;
+    antonio = SD.open("iannitea.txt", FILE_WRITE);
+    nIannitelliAntonio = daytime(antonio, nIannitelliAntonio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    antonio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Antonio I.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "00 58 99 7E")
+  {
+    File antonio;
+    antonio = SD.open("lannia.txt", FILE_WRITE);
+    nLanniAntonio = daytime(antonio, nLanniAntonio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    antonio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Antonio Lanni");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "D0 93 92 7E")
+  {
+    File youssef;
+    youssef = SD.open("mokkadey.txt", FILE_WRITE);
+    nMokkademYoussef = daytime(youssef, nMokkademYoussef, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    youssef.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Youssef Mokkadem");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "90 50 8E 7E")
+  {
+    File maurizio;
+    maurizio = SD.open("nerim.txt", FILE_WRITE);
+    nNeriMaurizio = daytime(maurizio, nNeriMaurizio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    maurizio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Maurizio Neri");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "D0 98 8D 7E")
+  {
+    File luigi;
+    luigi = SD.open("palombal.txt", FILE_WRITE);
+    nPalombaLuigi = daytime(luigi, nPalombaLuigi, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    luigi.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Luigi Palomba");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "D0 E9 8F 7E")
+  {
+    File gaetano;
+    gaetano = SD.open("paoluccg.txt", FILE_WRITE);
+    nPaolucciGaetano = daytime(gaetano, nPaolucciGaetano, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    gaetano.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Gaetano Paolucci");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "C0 6C 8D 7E")
+  {
+    File salvatore;
+    salvatore = SD.open("raos.txt", FILE_WRITE);
+    nRaoSalvatore = daytime(salvatore, nRaoSalvatore, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    salvatore.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Salvatore Rao");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "50 E0 93 7E")
+  {
+    File marcello;
+    marcello = SD.open("marcellr.txt", FILE_WRITE);
+    nRotunnoMarcello = daytime(marcello, nRotunnoMarcello, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    marcello.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Marcello Rotunno");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "C0 6F 8D 7E")
+  {
+    File giusy;
+    giusy = SD.open("savellig.txt", FILE_WRITE);
+    nSavelliGiusy = daytime(giusy, nSavelliGiusy, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    giusy.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Giusy Savelli");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "10 26 8F 7E")
+  {
+    File biagio;
+    biagio = SD.open("scarpalb.txt", FILE_WRITE);
+    nScarpaleggiaBiagio = daytime(biagio, nScarpaleggiaBiagio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    biagio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Biagio S.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "70 1E 8E 7E")
+  {
+    File alessio;
+    alessio = SD.open("settemba.txt", FILE_WRITE);
+    nSettembriniAlessio = daytime(alessio, nSettembriniAlessio, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    alessio.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Alessio S.");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "50 8E 97 7E")
+  {
+    File franco;
+    franco = SD.open("tedeschf.txt", FILE_WRITE);
+    nTedeschiFranco = daytime(franco, nTedeschiFranco, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    franco.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Franco Tedeschi");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "30 AD 92 7E")
+  {
+    File lamin;
+    lamin = SD.open("tourel.txt", FILE_WRITE);
+    nToureLamin = daytime(lamin, nToureLamin, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    lamin.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Lamin Toure");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "C0 06 93 7E")
+  {
+    File marco;
+    marco = SD.open("vettesem.txt", FILE_WRITE);
+    nVetteseMarco = daytime(marco, nVetteseMarco, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    marco.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Marco Vettese");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "10 9E 90 7E")
+  {
+    File chiara;
+    chiara = SD.open("viscovoc.txt", FILE_WRITE);
+    nViscovoChiara = daytime(chiara, nViscovoChiara, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    chiara.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Chiara Viscovo");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }
+  
+  else if (badge.substring(1) == "80 BD 99 7E")
+  {
+    File luigi;
+    luigi = SD.open("volpel.txt", FILE_WRITE);
+    nVolpeLuigi = daytime(luigi, nVolpeLuigi, minute, hour, dayOfWeek, dayOfMonth, month, year);
+    luigi.close();
+    lcd.clear();
+    digitalWrite(GREEN, HIGH);
+    lcd.print("Luigi Volpe");
+    timeOnLCD(hour, minute);
+    playNote();
+    delay(2000);
+    digitalWrite(GREEN, LOW);
+    lcd.clear();
+    delay(500);
+    printInstruction();
+  }

@@ -1,0 +1,8 @@
+
+ 1. Carica Dati Esterni
+ 2. Da Testo
+ 3. Seleziona File .TXT
+ 4. Avanti
+ 5. Spunta Spazio
+ 6. Avanti
+ 7. Fine

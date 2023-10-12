@@ -1,0 +1,29 @@
+//  //Show UID on serial monitor
+//  String content= "";
+//  byte letter;
+//  for (byte i = 0; i < mfrc522.uid.size; i++) 
+//  {
+//     content.concat(String(mfrc522.uid.uidByte[i] < 0x10 ? " 0" : " "));
+//     content.concat(String(mfrc522.uid.uidByte[i], HEX));
+//  }
+//  Serial.println();
+//  Serial.print("Message : ");
+//  content.toUpperCase();
+//  if (content.substring(1) == "F4 D1 04 B0") //change here the UID of the card/cards that you want to give access
+//  {
+//    Serial.println("Eduardo Manco");
+//    delay(3000);
+//  }
+//  else if (content.substring(1) == "C6 18 26 9E") //change here the UID of the card/cards that you want to give access
+//  {
+//    Serial.println("Luigi Santagata");
+//    delay(3000);
+//  }
+// 
+// else   {
+//    Serial.println("Scheda non valida");
+//    delay(3000);
+//  }
+//  displayTime(); // display the real-time clock data on the Serial Monitor,
+//  delay(1000); // every second
+//  Serial.println();
